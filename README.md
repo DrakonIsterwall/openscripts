@@ -1,4 +1,4 @@
-# openscripts
+# openscripts/dockerscripts
 Scripts without sensitive Informations
 
-dockerinstall.sh pulls get-docker.sh and installs it as root else add sudo
+Installed as root else add sudo
