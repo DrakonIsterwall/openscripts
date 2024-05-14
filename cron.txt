@@ -3,6 +3,7 @@ apt-get install cron
 # open the currently used crontab,only change in this file and save
 crontab -e
 # add depending on what u want this row
-* 1 * * * /path/to/script/
+* 1 * * * /path/to/script/ or command
 # in this case hourly repeat
 # m h d dayofmonth month dayofweek
+#for schedule every hour use */60 * * * * /path/to/script/ or command
