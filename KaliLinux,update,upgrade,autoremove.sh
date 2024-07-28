@@ -1,5 +1,5 @@
-#make your .sh file executable
-#!/bin/bash
+#make your .sh file executable and you have to use chmod u+x on this .sh file
+!/bin/bash
 #A bash script for updating,uprading and autoremoving files
 sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
 
